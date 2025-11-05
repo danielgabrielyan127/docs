@@ -16,9 +16,41 @@
           {
             "group": "Начало",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "start/index",
+              "start/quickstart",
+              "start/development"
+            ]
+          },
+          {
+            "group": "Регистрация/авторизация",
+            "pages": [
+              "auth/register",
+              "auth/login",
+              "auth/forgot"
+            ]
+          },
+          {
+            "group": "Обзор ЛК",
+            "pages": [
+              "dashboard/overview",
+              "dashboard/settings",
+              "dashboard/profile"
+            ]
+          },
+          {
+            "group": "Как генерировать",
+            "pages": [
+              "generate/guide",
+              "generate/examples",
+              "generate/limits"
+            ]
+          },
+          {
+            "group": "Реферальная программа",
+            "pages": [
+              "referral/how",
+              "referral/rewards",
+              "referral/terms"
             ]
           }
         ]
@@ -29,8 +61,7 @@
       }
     ],
     "global": {
-      "anchors": [
-      ]
+      "anchors": []
     }
   },
   "logo": {
